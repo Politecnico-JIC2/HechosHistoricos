@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<HechosHistoricos1>
+<!DOCTYPE HistoricalFacts SYSTEM "HechoHistorico.dtd">
 
-</HechosHistoricos1>
+<HistoricalFacts>
+    <HistoricalFact description="IBM da a conocer el PC. ">
+        <Date>
+            <DateFormat>
+                <Day>01</Day>
+                <Month>01</Month>
+                <Year>2022</Year>
+            </DateFormat>
+        </Date>
+        <Time>
+            <EPOCA1></EPOCA1>
+        </Time>
+        <ProminentCharacter>
+            Test person <Name></Name> y birthday:
+            <Birthday></Birthday>
+        </ProminentCharacter>
+    </HistoricalFact>
+    <HistoricalFact description="IBM da a conocer el PC. ">
+        <Date>
+            01-01-2022
+        </Date>
+        <Time>
+            <EPOCA2></EPOCA2>
+        </Time>
+        <ProminentCharacter>
+
+        </ProminentCharacter>
+    </HistoricalFact>
+</HistoricalFacts>

@@ -1,0 +1,14 @@
+<!ELEMENT HistoricalFacts (HistoricalFact)>
+        <!ATTLIST HistoricalFact description CDATA #REQUIRED>
+        <!ELEMENT HistoricalFact (Date,Time,ProminentCharacter)>
+        <!ELEMENT Time (EPOCA1 | EPOCA2)>
+        <!ELEMENT EPOCA1 (#PCDATA)>
+        <!ELEMENT EPOCA2 (#PCDATA)>
+        <!ELEMENT ProminentCharacter ANY>
+        <!ELEMENT Name (#PCDATA)>
+        <!ELEMENT Birthday (#PCDATA)>
+        <!ELEMENT Date (#PCDATA | DateFormat)*>
+        <!ELEMENT DateFormat (Day,Month,Year)>
+        <!ELEMENT Day (#PCDATA)>
+        <!ELEMENT Month (#PCDATA)>
+        <!ELEMENT Year (#PCDATA)>
