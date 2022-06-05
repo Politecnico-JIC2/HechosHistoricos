@@ -1,4 +1,4 @@
-<!ELEMENT HistoricalFacts (HistoricalFact)>
+<!ELEMENT HistoricalFacts (HistoricalFact+)>
         <!ATTLIST HistoricalFact description CDATA #REQUIRED>
         <!ELEMENT HistoricalFact (Date,Time,ProminentCharacter)>
         <!ELEMENT Time (EPOCA1 | EPOCA2)>
